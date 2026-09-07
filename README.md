@@ -1,11 +1,18 @@
-# Portfolio de Carmen Llosa
+# Carmen Llosa · Escritura creativa
 
-Web personal de Carmen Llosa.
+Portfolio con forma de libreta, cinco páginas y navegación por pestañas.
 
-- `index.html`: web completa con imágenes y fuentes incorporadas. Se puede abrir directamente en el navegador.
-- `portfolio/`: proyecto editable en React y Vinext, con imágenes y fuentes locales.
+- Portada: `index.html`
+- Sobre mí y formación: `sobre-mi/index.html`
+- Mi escritura: `mi-escritura/index.html`
+- Inspiración: `inspiracion/index.html`
+- Contacto: `contacto/index.html`
 
-## Desarrollo
+Publicado en https://carmenllosa.github.io/carmenllosa/ con GitHub Pages.
+
+## Edición
+
+Los textos y la distribución de cada página están en `portfolio/content/notebook.json`. El marco de la libreta y la navegación están en `portfolio/lib/notebook.ts`; el diseño está en `portfolio/app/globals.css`.
 
 Con Node.js 22.13 o posterior, desde `portfolio/`:
 
@@ -14,8 +21,12 @@ npm ci
 npm run dev
 ```
 
-Para compilar: `npm run build`.
+Para actualizar los archivos que publica GitHub Pages:
 
-Para regenerar la versión autónoma: `node scripts/export-html.mjs`. El resultado se guarda como `Carmen-Llosa-portfolio.html` en la carpeta superior; cópialo a `index.html` para actualizar la entrada del repositorio.
+```sh
+node scripts/export-html.mjs
+```
 
-Subir estos archivos a GitHub no activa por sí solo GitHub Pages.
+El exportador genera las cinco páginas HTML y `notebook.css` en la raíz del repositorio, y comprueba los enlaces internos y los archivos de imágenes. Publicar esos archivos junto con los cambios del proyecto en `main` actualiza la web. Las imágenes y fuentes se sirven desde `portfolio/public/`.
+
+La aplicación React también dispone de las cinco rutas; se puede comprobar con `npm run build`.
