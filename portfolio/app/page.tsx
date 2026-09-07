@@ -1,3 +1,33 @@
-import Notebook from '../components/notebook';
-export const metadata = { title: "Carmen Llosa · Escritura creativa" };
-export default function Page() { return <Notebook slug="" />; }
+export default function Home() {
+  return <>
+    <a className="skip-link" href="#contenido">Saltar al contenido</a>
+    <header className="header"><a href="#inicio" className="wordmark">CARMEN LLOSA</a><nav aria-label="Navegación principal"><a href="#sobre-mi">SOBRE MÍ</a><a href="#escritura">MI ESCRITURA</a><a href="#contacto">CONTACTO</a></nav></header>
+    <main id="contenido">
+      <section id="inicio" className="cover shell">
+        <div className="cover-aside"><img src="/images/pdf-cover.jpg" alt="Carmen sentada ante una estantería de revistas" width="923" height="1170" fetchPriority="high"/></div>
+        <div className="cover-copy"><h1>CARMEN<br/>LLOSA</h1><p>ESCRITURA CREATIVA</p><a className="down" href="#sobre-mi" aria-label="SOBRE MÍ">↓</a></div>
+      </section>
+      <section id="sobre-mi" className="section shell about">
+        <h2 className="label">SOBRE MÍ</h2><div className="bio"><h3>¡Hola!</h3>
+        <p>Soy Carmen y me gusta que mi apellido rime con graciosa. Curiosa, alegre y observadora, tengo debilidad por todo lo relacionado con el arte y la estética. Me apasionan el cine, la literatura, la moda y, desde la cuna, la buena mesa.</p>
+        <p>Estudié ADE mientras algunos veranos ayudaba en el restaurante familiar y afinaba mi paladar, básicamente porque era lo que tenía salidas laborales.Sin embargo, empecé a trabajar en finanzas y pronto entendí que necesitaba un entorno más creativo. Así llegué al idílico mundo de la moda, donde he pasado más de siete años en diferentes departamentos, los últimos cuatro en Celia B, descubriendo lo que es una empresa con tantas capas como colores.</p>
+        <p>Entre tanto, me fui acercando espontáneamente a la escritura y construyendo lo que hoy es mi tono: irónico, cotidiano, ligero y con referencias pop. Todo lo esperable de una millennial. Contaba pequeñas anécdotas en Instagram, escribía cartas a mis amigos, puede que a algunos amores y, por supuesto, despotricaba irregularmente en diarios sobre todo aquello que se me pasaba por la cabeza. Di con Nora Ephron y, desde entonces, me tatué —figuradamente— eso de que todo es material para escribir.</p>
+        <p>Y es lo que hago hoy. Escribo en La Soga Cultural, más recientemente, en Substack y también he colaborado con proyectos de gastronomía y moda. Además, por casualidades de la vida —o quizá por mi gracia— , participo en algún que otro podcast.</p>
+        </div><img className="about-photo" src="/images/pdf-about.jpg" alt="Carmen sentada a una mesa con mantel de cuadros" width="689" height="1041" loading="lazy"/>
+      </section>
+      <section id="formacion" className="section shell formation"><h2 className="label">EN QUÉ ME FORMÉ</h2><ul className="education"><li>Curso de Periodismo en Moda, Belleza y Estilo de Vida<span>Vogue College of Fashion (Mayo- Julio 2026)</span></li><li>MBA en Dirección y Gestión de Empresas de Moda<span>Esden Business School (2015-2016)</span></li><li>Grado en Administración y Dirección de Empresas<span>Universidad de Oviedo (2010-2014)</span></li></ul></section>
+      <section id="escritura" className="section shell writing-group"><h2 className="section-title">MI ESCRITURA</h2><div className="writing-overview"><div className="writing-intro"><div><h3 className="label">DÓNDE ESCRIBO</h3><ul className="publications"><li><a href="https://lasoga.org/author/carmen/">La Soga Cultural (2025 - actualidad)</a></li><li>Newsletter Celia B (2024 - 2025)</li><li><a href="https://substack.com/@carmenllosa">Substack ( 2026 - actualidad)</a></li><li><a href="https://www.instagram.com/carmen.llosa/">Instragram (2021 - actualidad)</a></li></ul></div></div><section className="subsection voice"><h3 className="label">QUÉ PUEDES ENCONTRAR EN MIS ARTÍCULOS:</h3><ul><li>AUTOIRONÍA</li><li>COTIDIANIDAD</li><li>REFERENCIAS</li><li>HUMOR</li><li>REFLEXIÓN</li></ul></section></div><section id="articulos" className="subsection writing">
+        <div className="work-heading"><h3 className="label">SUPONGO QUE DEBERÍA MOSTRARTE ALGUNOS EJEMPLOS, CLARO.</h3><p>AHÍ, VAMOS:</p></div>
+        <div className="work-body"><img className="writing-photo" src="/images/pdf-writing.jpg" alt="Carmen escribiendo en un balcón" width="780" height="1170" loading="lazy"/><div className="articles">
+          <article><p>Elaboré un manual para (sobre)vivir sola con reflexiones y consejos para cualquier mujer que quiera independizarse. <a href="https://lasoga.org/manual-para-sobrevivir-sola/">Puedes leerlo aquí.</a></p></article>
+          <article><p>Defendí - era necesario- las comedias románticas. ¿Cómo? <a href="https://lasoga.org/en-defensa-de-la-comedia-romantica/">Así.</a></p></article>
+          <article><p>Me atreví con la crítica gastronómica. Nacer entre fogones y buenos guisos, puede que tenga algo que ver. <a href="https://okaerilab.com/category/autores/carmen-llosa/">Mira.</a></p></article>
+          <article><p>Mi pasión por la moda, me inspiró hacer un recorrido histórico de la camiseta de rayas. Y le puse un filtro autobiográfico. Está en mi perfil de <a href="https://substack.com/home/post/p-211066813">substack.</a></p></article>
+          <article><p>Siguiendo con la moda -y el cine-me despedí de Robert Redford con este pequeño homenaje en la newsletter de Celia B y en <a href="https://www.instagram.com/p/DPO_M6iigF8/?img_index=1">Instagram.</a> Y, como no podía ser menos, hice lo mismo con <a href="https://lnkd.in/p/eNP-XApu">Diane Keaton.</a></p></article>
+        </div></div>
+      </section></section>
+      <section id="inspiracion" className="section shell inspiration"><h2 className="label">MI INSPIRACIÓN SERÍA ALGO ASÍ:</h2><img className="inspiration-collage" src="/images/pdf-inspiration.jpg" alt="Collage original del portfolio: cine, moda, arte, gastronomía y referencias personales" width="2584" height="1278" loading="lazy"/></section>
+    </main>
+    <footer id="contacto" className="section shell"><h2><a href="mailto:carmenllosac@gmail.com">SI TE APETECE,<br/>ESCRÍBEME :)</a></h2><div className="contact"><a href="mailto:carmenllosac@gmail.com">CARMENLLOSAC@GMAIL.COM</a><a href="tel:+34654910959">654910959</a></div></footer>
+  </>;
+}

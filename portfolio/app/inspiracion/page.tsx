@@ -1,3 +1,2 @@
-import Notebook from '../../components/notebook';
-export const metadata = { title: "Inspiración · Carmen Llosa" };
-export default function Page() { return <Notebook slug="inspiracion" />; }
+import { redirect } from 'next/navigation';
+export default function Page() { redirect('/#inspiracion'); }

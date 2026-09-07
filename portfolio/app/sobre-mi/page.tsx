@@ -1,3 +1,2 @@
-import Notebook from '../../components/notebook';
-export const metadata = { title: "Sobre mí · Carmen Llosa" };
-export default function Page() { return <Notebook slug="sobre-mi" />; }
+import { redirect } from 'next/navigation';
+export default function Page() { redirect('/#sobre-mi'); }
