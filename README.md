@@ -1,26 +1,15 @@
 # Carmen Llosa · Escritura creativa
 
-Portfolio minimalista en azul y crema, en una página continua: portada, sobre mí, formación, escritura, inspiración y contacto.
+Portfolio minimalista en azul y crema con cuatro páginas: Sobre mí (inicio), Mis textos, Inspiración y Contacto.
 
 Web: https://carmenllosa.github.io/carmenllosa/
 
 ## Editar y publicar
 
-El contenido está en `portfolio/app/page.tsx` y el diseño en `portfolio/app/globals.css`. Las imágenes y fuentes están en `portfolio/public/`.
+El contenido está en `portfolio/app/page.tsx` y en los archivos `page.tsx` de `mi-escritura/`, `inspiracion/` y `contacto/`. El diseño está en `portfolio/app/globals.css`. Las imágenes y fuentes están en `portfolio/public/`.
 
-Con Node.js 22.13 o posterior, desde `portfolio/`:
+Con Node.js 22.13 o posterior, desde `portfolio/`, instala las dependencias con `npm ci` y abre la vista previa con `npm run dev`.
 
-```sh
-npm ci
-npm run dev
-```
+Para generar GitHub Pages, ejecuta `node scripts/export-html.mjs`. Actualiza el `index.html` principal, los de cada apartado y `portfolio.css`. Sube estos archivos junto al proyecto a `main` para publicar. Las rutas y los recursos se exportan con enlaces relativos compatibles con el subdirectorio de GitHub Pages.
 
-Para generar la web que publica GitHub Pages:
-
-```sh
-node scripts/export-html.mjs
-```
-
-Esto actualiza `index.html` y `portfolio.css` en la raíz del repositorio. Subirlos junto al proyecto a `main` publica los cambios. El exportador también genera `Carmen-Llosa-portfolio.html`, una copia local autónoma con fuentes e imágenes incorporadas.
-
-Las antiguas direcciones de la libreta redirigen al apartado correspondiente de la página continua.
+`/sobre-mi/` redirige al inicio. `Carmen-Llosa-portfolio.html` abre la portada local; necesita los archivos del proyecto junto a él.
