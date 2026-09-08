@@ -1,12 +1,12 @@
 # Carmen Llosa · Escritura creativa
 
-Portfolio minimalista en azul y crema con cuatro páginas: Sobre mí (inicio), Mis textos, Inspiración y Contacto.
+Portfolio minimalista en azul y crema con cinco páginas: Sobre mí (inicio), Formación, Mis textos, Inspiración y Contacto.
 
 Web: https://carmenllosa.github.io/carmenllosa/
 
 ## Editar y publicar
 
-El contenido está en `portfolio/app/page.tsx` y en los archivos `page.tsx` de `mi-escritura/`, `inspiracion/` y `contacto/`. El diseño está en `portfolio/app/globals.css`. Las imágenes y fuentes están en `portfolio/public/`.
+El contenido está en `portfolio/app/page.tsx` y en los archivos `page.tsx` de `formacion/`, `mi-escritura/`, `inspiracion/` y `contacto/`. El diseño está en `portfolio/app/globals.css`. Las imágenes y fuentes están en `portfolio/public/`.
 
 Con Node.js 22.13 o posterior, desde `portfolio/`, instala las dependencias con `npm ci` y abre la vista previa con `npm run dev`.
 
