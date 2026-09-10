@@ -28,3 +28,6 @@
 
 /* Article index: equal image frames and one title link per card. */
 .articles{grid-template-columns:repeat(2,minmax(0,1fr));gap:45px 6%;align-items:start}.articles .article-card{display:block;min-width:0}.article-image-link{display:block;width:100%;margin-bottom:18px}.article-image{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;background:var(--muted)}.image-rayas{object-position:center 32%}.image-robert{object-position:center 24%}.image-diane{object-position:center 24%}.articles .article-meta{font-size:.65rem;line-height:1.7;margin:0 0 10px}.articles h2{font-size:clamp(1.7rem,2.7vw,2.25rem);line-height:1.16;max-width:none;margin:0}.articles h2 a{display:block}.image-credits{width:88%;max-width:1120px;margin:10px auto 0;color:var(--muted-foreground);font-size:.65rem;line-height:1.7}.image-credits summary{cursor:pointer;width:fit-content}.image-credits p{max-width:90ch;margin-top:12px}.image-credits a{text-decoration:underline}@media(max-width:650px){.articles{grid-template-columns:1fr;gap:35px}.articles h2{font-size:1.9rem}.article-image-link{margin-bottom:14px}.articles .article-meta{font-size:.6rem}.image-credits{font-size:.6rem}}
+
+/* Preserve the prison placard in the portrait. */
+.article-image.image-robert{object-fit:contain;object-position:center;background:#e7e5dc}

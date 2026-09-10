@@ -10,3 +10,7 @@ Miniaturas seleccionadas para enlazar los textos de Carmen Llosa.
 - robert.jpg: https://commons.wikimedia.org/wiki/File:Robert_Redford_1973-4.jpg — Ken Dare / Los Angeles Times / UCLA Library. CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
 
 Imágenes reducidas para web; encuadre mediante CSS. Créditos disponibles en el desplegable al pie de Artículos.
+
+Updated photographs:
+- okaeri-mesa.jpg: https://okaerilab.com/wp-content/uploads/2023/11/Okaeri-8-de-36-1200x800.jpg — official Okaeri website.
+- robert-brubaker.jpg: https://m.media-amazon.com/images/M/MV5BNmI2MjU3NWUtMGUyYi00ZjI2LWJkZjAtMmRiNTQzNzM2MjdjXkEyXkFqcGc%40._V1_.jpg — Brubaker promotional still, IMDb.

@@ -8,7 +8,7 @@ const css=fs.readFileSync(path.join(root,'app/globals.css'),'utf8').split('\n').
 const publishedCss=css.replaceAll('url("/fonts/','url("./portfolio/public/fonts/');
 const version=crypto.createHash('sha256').update(publishedCss).digest('hex').slice(0,10);
 fs.writeFileSync(path.join(output,'portfolio.css'),publishedCss);
-const pages=[['','Sobre mí'],['formacion','CV'],['mi-escritura','Artículos'],['contacto','Contacto']];
+const pages=[['','Sobre mí'],['formacion','Trayectoria'],['mi-escritura','Artículos'],['contacto','Contacto']];
 for(const [slug,label] of pages){
  const source=fs.readFileSync(path.join(root,'app',slug,'page.tsx'),'utf8');
  const body=source.slice(source.indexOf('return <>')+9,source.lastIndexOf('</>;')).replaceAll('className=','class=').replaceAll('fetchPriority=','fetchpriority=').replaceAll('tabIndex={-1}','tabindex="-1"');
