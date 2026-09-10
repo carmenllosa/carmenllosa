@@ -1,6 +1,6 @@
 export default function Page() {
   return <>
-<a className="skip-link" href="#contenido">Saltar al contenido</a><header className="header"><a href="/" className="wordmark">CARMEN LLOSA</a><nav aria-label="Navegación principal"><a href="/" aria-current="page">SOBRE MÍ</a><a href="/formacion/">FORMACIÓN</a><a href="/mi-escritura/">MIS TEXTOS</a><a href="/inspiracion/">INSPIRACIÓN</a><a href="/contacto/">CONTACTO</a></nav></header><main id="contenido"><section className="cover shell"><div className="cover-copy"><h1>¡Hola!<br/>Soy Carmen.</h1><p className="cover-intro">Me gusta que mi apellido<br/>rime con graciosa.</p></div><div className="cover-aside"><img src="/images/pdf-cover.jpg" alt="Carmen sentada ante una estantería de revistas" width="923" height="1170" fetchPriority="high"/></div></section><section id="sobre-mi" className="section shell about">        <div className="about-body"><div className="bio">
+<a className="skip-link" href="#contenido">Saltar al contenido</a><header className="header"><a href="/" className="wordmark">CARMEN LLOSA</a><nav aria-label="Navegación principal"><a href="/" aria-current="page">SOBRE MÍ</a><a href="/formacion/">FORMACIÓN</a><a href="/mi-escritura/">ARTÍCULOS</a><a href="/contacto/">CONTACTO</a></nav></header><main id="contenido"><section className="cover shell"><div className="cover-copy"><h1>¡Hola!<br/>Soy Carmen.</h1><p className="cover-intro">Me gusta que mi apellido<br/>rime con graciosa.</p></div><div className="cover-aside"><img src="/images/pdf-cover.jpg" alt="Carmen sentada ante una estantería de revistas" width="923" height="1170" fetchPriority="high"/></div></section><section id="sobre-mi" className="section shell about">        <div className="about-body"><div className="bio">
           
           <p>Curiosa, alegre y observadora, tengo debilidad por el arte y la estética. Me apasionan el cine, la literatura, la moda y, desde la cuna, la buena mesa.</p>
           <p>Estudié ADE porque tenía salidas laborales. Entre tanto, algunos veranos ayudaba en el restaurante familiar y afinaba el paladar. Empecé a trabajar en finanzas, pero pronto entendí que necesitaba un entorno más creativo.</p>
@@ -10,6 +10,6 @@ export default function Page() {
           <p>Y es lo que hago hoy. Escribo en La Soga Cultural y, más recientemente, en Substack. También he colaborado con proyectos de gastronomía y moda. Además, por casualidades de la vida —o quizá por mi gracia—, participo en algún que otro podcast.</p>
         </div></div>
         
-</section></main><footer className="site-footer shell"><a href="/mi-escritura/">Leer mis textos ↗</a></footer>
+</section></main><footer className="site-footer shell"><a href="/mi-escritura/">Leer mis artículos ↗</a></footer>
   </>;
 }

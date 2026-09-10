@@ -8,7 +8,7 @@ const css=fs.readFileSync(path.join(root,'app/globals.css'),'utf8').split('\n').
 const publishedCss=css.replaceAll('url("/fonts/','url("./portfolio/public/fonts/');
 const version=crypto.createHash('sha256').update(publishedCss).digest('hex').slice(0,10);
 fs.writeFileSync(path.join(output,'portfolio.css'),publishedCss);
-const pages=[['','Sobre mí'],['formacion','Formación'],['mi-escritura','Mis textos'],['inspiracion','Inspiración'],['contacto','Contacto']];
+const pages=[['','Sobre mí'],['formacion','Formación'],['mi-escritura','Artículos'],['contacto','Contacto']];
 for(const [slug,label] of pages){
  const source=fs.readFileSync(path.join(root,'app',slug,'page.tsx'),'utf8');
  const body=source.slice(source.indexOf('return <>')+9,source.lastIndexOf('</>;')).replaceAll('className=','class=').replaceAll('fetchPriority=','fetchpriority=');
@@ -27,4 +27,6 @@ for(const [slug,label] of pages){
 fs.writeFileSync(path.join(output,'sobre-mi/index.html'),'<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Sobre mí · Carmen Llosa</title><meta http-equiv="refresh" content="0;url=../"></head><body><a href="../">Sobre mí</a></body></html>\n');
 // The previous single-file preview now opens the multipage portfolio.
 fs.writeFileSync(path.join(output,'Carmen-Llosa-portfolio.html'),'<!doctype html><html lang="es"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=./index.html"><title>Carmen Llosa</title></head><body><a href="./index.html">Abrir el portfolio</a></body></html>\n');
-console.log('Verified five independent pages, active navigation, headings, internal links and image paths.');
+console.log('Verified four independent pages, active navigation, headings, internal links and image paths.');
+
+fs.writeFileSync(path.join(output,'inspiracion/index.html'),fs.readFileSync(path.join(output,'sobre-mi/index.html'),'utf8'));
