@@ -27,3 +27,6 @@
 
 /* Preserve the prison placard in the portrait. */
 .article-image.image-robert{object-fit:contain;object-position:center;background:#e7e5dc}
+
+/* Contact: concise details with the spacing of an editorial index. */
+.contact-minimal{display:grid;grid-template-columns:1fr 3fr;align-content:start;gap:24px;padding-top:65px;min-height:65vh}.contact-minimal h1{font:400 .75rem/1.8 var(--font-body);letter-spacing:.045em}.contact-details{display:flex;flex-direction:column;align-items:flex-start;font-size:.85rem;line-height:1.9}.contact-details a{overflow-wrap:anywhere;max-width:100%}@media(max-width:650px){.contact-minimal{grid-template-columns:1fr;gap:22px;padding-top:38px;min-height:65vh}.contact-minimal h1{font-size:.7rem}.contact-details{font-size:.85rem}}
