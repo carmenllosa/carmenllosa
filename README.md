@@ -1,6 +1,6 @@
 # Carmen Llosa · Escritura creativa
 
-Portfolio minimalista en azul y marfil con cuatro páginas: Sobre mí (inicio), Formación, Artículos y Contacto.
+Portfolio minimalista en azul y marfil con cuatro páginas: Sobre mí (inicio), CV (formación y dónde escribo), Artículos y Contacto.
 
 Web: https://carmenllosa.github.io/carmenllosa/
 
