@@ -1,4 +1,4 @@
-# Carmen Llosa · Escritura creativa
+# Carmen Llosa · Escritura
 
 Portfolio minimalista en azul y marfil con cuatro páginas: Sobre mí (inicio), CV (formación y dónde escribo), Artículos y Contacto.
 
