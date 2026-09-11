@@ -42,3 +42,5 @@
 .site-footer{position:relative;padding-right:100px;min-height:125px;align-items:center}.footer-daisy{position:absolute;right:0;bottom:20px;width:78px;height:78px;object-fit:contain;pointer-events:none}@media(max-width:650px){.site-footer{align-items:flex-start;justify-content:center;padding-right:85px;min-height:115px}.footer-daisy{width:65px;height:65px}}
 
 .site-footer{padding-right:0;min-height:0}.profile-heading{margin-bottom:26px}@media(min-width:651px){.profile-photo{position:relative;align-self:stretch;max-width:none;height:100%;min-height:0}.profile-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 50%}}@media(max-width:650px){.profile-heading{margin-bottom:0}.profile-photo img{width:100%;height:auto}}
+
+.profile-bio{text-align:justify;hyphens:auto}
