@@ -50,3 +50,5 @@
 .profile-bio{text-align:justify;hyphens:auto}
 
 @media(min-width:651px){.home-profile{grid-template-columns:minmax(0,1.15fr) minmax(0,1.05fr);grid-template-areas:"heading photo" "biography photo"}}.contact-minimal{display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;gap:24px;padding-block:45px;min-height:65vh}.contact-minimal .contact-details{align-items:center}
+
+@media(min-width:651px){.profile-photo img{object-fit:contain}}
