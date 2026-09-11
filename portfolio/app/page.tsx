@@ -8,6 +8,6 @@ export default function Page() {
           <p>La escritura fue llegando por su cuenta. Contaba pequeñas anécdotas en Instagram, escribía cartas a mis amigos —puede que a algunos amores— y, por supuesto, despotricaba de vez en cuando en diarios. Así fui encontrando mi tono: irónico, cotidiano, ligero y con referencias pop. Todo lo esperable de una millennial.</p>
           <p>Después di con Nora Ephron y me tatué —figuradamente— eso de que todo es material para escribir.</p>
           <p>Y es lo que hago hoy. Escribo en La Soga Cultural y, más recientemente, en Substack. También he colaborado con proyectos de gastronomía y moda. Además, por casualidades de la vida —o quizá por mi gracia—, participo en algún que otro podcast.</p>
-        </div></section></main><footer className="site-footer shell"><a href="/mi-escritura/">Leer mis artículos</a></footer>
+        </div></section></main><footer className="site-footer shell"><a href="/mi-escritura/">Leer mis artículos</a><img className="footer-daisy" src="/images/daisy-footer.png" alt="" aria-hidden="true" width="80" height="80" loading="lazy"/></footer>
   </>;
 }
