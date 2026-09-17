@@ -56,3 +56,5 @@
 @media(min-width:651px){.home-profile{grid-template-areas:"heading ." "biography photo"}.profile-photo{align-self:center;height:auto}.profile-photo img{position:static;width:100%;height:auto;object-fit:contain}}
 
 .cv-page > .cv-section:nth-of-type(3){margin-top:88px}@media(max-width:650px){.cv-page > .cv-section:nth-of-type(3){margin-top:72px}}
+
+.articles .article-image-link{aspect-ratio:4/3;overflow:hidden}.articles .article-image-link .article-image{display:block;width:100%;height:100%;aspect-ratio:auto;object-fit:cover}.articles .image-nora{object-position:55% center}
