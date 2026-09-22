@@ -54,3 +54,6 @@
 .cv-page > .cv-section:nth-of-type(3){margin-top:88px}@media(max-width:650px){.cv-page > .cv-section:nth-of-type(3){margin-top:72px}}
 
 .articles .article-image-link{aspect-ratio:4/3;overflow:hidden}.articles .article-image-link .article-image{display:block;width:100%;height:100%;aspect-ratio:auto;object-fit:cover}.articles .image-nora{object-position:55% center}
+
+/* Publication and podcast dates alongside their names. */
+.cv-list.cv-inline-dates li{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 16px}.cv-inline-dates .date{padding-top:0;white-space:nowrap}
