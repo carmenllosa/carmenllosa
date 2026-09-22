@@ -67,6 +67,3 @@
 
 /* Education dates follow the study name on the right. */
 .cv-list.cv-education-dates li{grid-template-columns:minmax(0,1fr) auto;align-items:baseline;gap:16px}.cv-education-dates .date{padding-top:0;white-space:nowrap}
-
-/* Center the education heading with a quieter size. */
-.cv-page > .cv-section:nth-of-type(3) > h2{text-align:center;font-size:clamp(1.35rem,2.1vw,1.8rem)}
