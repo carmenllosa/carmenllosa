@@ -64,3 +64,6 @@
 
 /* Center the trajectory column while preserving left-aligned text. */
 .cv-page{width:84%;max-width:720px;margin-inline:auto;text-align:left}
+
+/* Education dates follow the study name on the right. */
+.cv-list.cv-education-dates li{grid-template-columns:minmax(0,1fr) auto;align-items:baseline;gap:16px}.cv-education-dates .date{padding-top:0;white-space:nowrap}
