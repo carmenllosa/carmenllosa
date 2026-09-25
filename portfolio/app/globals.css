@@ -84,3 +84,5 @@
 @media(max-width:650px){.cv-page{padding-top:30px}.cv-page>.cv-section{grid-template-columns:1fr;row-gap:27px;padding-top:22px}.cv-page .cv-section h2{font-size:1.8rem;max-width:none}.cv-page>.cv-section+.cv-section{margin-top:48px}.cv-page>.cv-section:nth-of-type(3){margin-top:60px}.cv-page .cv-list{font-size:.87rem}.cv-page .cv-list li{padding:20px 0;gap:7px}.cv-page .cv-list .date{font-size:.66rem}.cv-page .cv-list .school{font-size:.75rem}}
 
 .cv-page .cv-list li>div{min-width:0}.cv-page .cv-list .date{text-align:right}.cv-page .cv-section h2{max-width:none}@media(max-width:850px){.cv-page .cv-list .date{text-align:left}}
+
+.cv-page>.cv-section,.cv-page .cv-list li{border:0}
