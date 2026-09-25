@@ -63,3 +63,18 @@
 
 /* Education dates follow the study name on the right. */
 .cv-list.cv-education-dates li{grid-template-columns:minmax(0,1fr) auto;align-items:baseline;gap:16px}.cv-education-dates .date{padding-top:0;white-space:nowrap}
+
+/* Trayectoria: aligned sections and quiet separators. */
+.cv-page{width:88%;max-width:1000px;padding-top:48px;padding-bottom:35px}
+.cv-page>.cv-section{display:grid;grid-template-columns:200px minmax(0,1fr);column-gap:54px;align-items:start;padding-top:28px;border-top:1px solid rgba(48,41,144,.18)}
+.cv-page>.cv-section+.cv-section{margin-top:56px}
+.cv-page>.cv-section:nth-of-type(3){margin-top:72px}
+.cv-page .cv-section h2{font-size:2rem;line-height:1.12;margin:0;max-width:9ch}
+.cv-page .cv-list{gap:0;font-size:.9rem;line-height:1.55}
+.cv-page .cv-list li{grid-template-columns:128px minmax(0,1fr);gap:24px;padding:19px 0;border-bottom:1px solid rgba(48,41,144,.09)}
+.cv-page .cv-list li:first-child{padding-top:0}
+.cv-page .cv-list li:last-child{padding-bottom:0;border-bottom:0}
+.cv-page .cv-list .date{font-size:.66rem;line-height:1.6;padding-top:3px}
+.cv-page .cv-list .school{font-size:.76rem;line-height:1.6;margin-top:8px}
+@media(max-width:850px){.cv-page>.cv-section{grid-template-columns:160px minmax(0,1fr);column-gap:32px}.cv-page .cv-list li{grid-template-columns:1fr;gap:7px}}
+@media(max-width:650px){.cv-page{padding-top:30px}.cv-page>.cv-section{grid-template-columns:1fr;row-gap:27px;padding-top:22px}.cv-page .cv-section h2{font-size:1.8rem;max-width:none}.cv-page>.cv-section+.cv-section{margin-top:48px}.cv-page>.cv-section:nth-of-type(3){margin-top:60px}.cv-page .cv-list{font-size:.87rem}.cv-page .cv-list li{padding:20px 0;gap:7px}.cv-page .cv-list .date{font-size:.66rem}.cv-page .cv-list .school{font-size:.75rem}}
