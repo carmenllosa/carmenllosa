@@ -82,3 +82,17 @@
 .cv-page .cv-list li>div{min-width:0}.cv-page .cv-list .date{text-align:right}.cv-page .cv-section h2{max-width:none}@media(max-width:850px){.cv-page .cv-list .date{text-align:left}}
 
 .cv-page>.cv-section,.cv-page .cv-list li{border:0}
+
+
+.cv-page{max-width:680px;padding-top:36px;padding-bottom:20px}
+.cv-page>.cv-section{display:block;padding:0;border:0}
+.cv-page>.cv-section+.cv-section{margin-top:36px}
+.cv-page>.cv-section:nth-of-type(3){margin-top:44px}
+.cv-page .cv-section h2{font-size:1.65rem;line-height:1.2;margin:0 0 19px;max-width:none}
+.cv-page .cv-list{font-size:.88rem;line-height:1.6}
+.cv-page .cv-list li{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 16px;padding:9px 0;border:0}
+.cv-page .cv-list li:first-child{padding-top:0}
+.cv-page .cv-list .date{font-size:.66rem;text-align:left;padding:0}
+.cv-page .cv-list .school{font-size:.75rem;margin-top:4px}
+.cv-page .cv-education-dates li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px 18px;padding:12px 0}
+@media(max-width:650px){.cv-page{padding-top:28px}.cv-page .cv-section h2{font-size:1.5rem;margin-bottom:17px}.cv-page .cv-list{font-size:.83rem}.cv-page .cv-education-dates li{grid-template-columns:1fr;gap:3px}.cv-page>.cv-section+.cv-section{margin-top:32px}.cv-page>.cv-section:nth-of-type(3){margin-top:40px}}
