@@ -104,3 +104,5 @@
 .articles h2{font-size:clamp(1.5rem,2.2vw,1.9rem);line-height:1.2}@media(max-width:650px){.articles h2{font-size:1.6rem}}
 
 .articles .article-card .article-context{font:400 .78rem/1.65 var(--font-body);color:var(--muted-foreground);margin:12px 0 0;max-width:48ch}.contact-intro{font:.8rem/1.65 var(--font-body);color:var(--muted-foreground);max-width:36ch}@media(max-width:650px){.profile-bio{text-align:left}.articles .article-card .article-context{font-size:.74rem}}
+
+.contact-minimal h1{font:400 1.65rem/1.2 var(--font-heading);letter-spacing:normal}.contact-details .contact-instagram{font-size:.75rem;margin-top:12px}@media(max-width:650px){.contact-minimal h1{font-size:1.5rem}}
